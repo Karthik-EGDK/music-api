@@ -95,6 +95,56 @@ app.post("/music",(req,res)=>{
                              musicTitle:"Yimmy yimmy"
         }]})
         }
+        //start
+        else if(name=="ma g"){
+            return res.json({success:true,songs:[{musicfile:"https://res.cloudinary.com/dfjqihjz4/video/upload/v1712573551/api%20musics/pratham/Ma_G_320_PagalWorld.com.cm_ghqqbf.mp3",
+                             musicTitle:"Ma G"
+        }]})
+        }
+        else if(name=="houdini"){
+            return res.json({success:true,songs:[{musicfile:"https://res.cloudinary.com/dfjqihjz4/video/upload/v1712573550/api%20musics/pratham/Houdini_320_PagalWorld_tkqe8p.mp3",
+                             musicTitle:"Houdini"
+        }]})
+        }
+        else if(name=="khatu shyam"){
+            return res.json({success:true,songs:[{musicfile:"https://res.cloudinary.com/dfjqihjz4/video/upload/v1712573538/api%20musics/pratham/Khatu_Shyam_320_PagalWorld.com.cm_sashmm.mp3",
+                             musicTitle:"Khatu Shyam!!!!"
+        }]})
+        }
+        else if(name=="ram siyaram"){
+            return res.json({success:true,songs:[{musicfile:"https://res.cloudinary.com/dfjqihjz4/video/upload/v1712573530/api%20musics/pratham/_Ram_Siya_Ram_320_PagalWorld.com.cm_hwwicc.mp3",
+                             musicTitle:"Ram Siyaram"
+        }]})
+        }
+        else if(name=="made for me"){
+            return res.json({success:true,songs:[{musicfile:"https://res.cloudinary.com/dfjqihjz4/video/upload/v1712573522/api%20musics/pratham/Made_For_Me_320_PagalWorld_bn0qty.mp3",
+                             musicTitle:"Made for Me"
+        }]})
+        }
+        else if(name=="waste"){
+            return res.json({success:true,songs:[{musicfile:"https://res.cloudinary.com/dfjqihjz4/video/upload/v1712573520/api%20musics/pratham/Waste_320_PagalWorld_kxqg0d.mp3",
+                             musicTitle:"Waste"
+        }]})
+        }
+        else if(name=="we are in this together"){
+            return res.json({success:true,songs:[{musicfile:"https://res.cloudinary.com/dfjqihjz4/video/upload/v1712573517/api%20musics/pratham/We_re_In_This_Together_PagalWorld.com.cm_xdtauu.mp3",
+                             musicTitle:"We are in this Together"
+        }]})
+        }
+        else if(name=="dont you hold me back"){
+            return res.json({success:true,songs:[{musicfile:"https://res.cloudinary.com/dfjqihjz4/video/upload/v1712573495/api%20musics/pratham/Don_t_You_Hold_Me_Down_320_PagalWorld.com.cm_y9xmqp.mp3",
+                             musicTitle:"Dont you hold me back"
+        }]})
+        }
+        else if(name=="angels in tibet"){
+            return res.json({success:true,songs:[{musicfile:"https://res.cloudinary.com/dfjqihjz4/video/upload/v1712573487/api%20musics/pratham/Angels_in_Tibet_320_PagalWorld_fddbsa.mp3",
+                             musicTitle:"Angels in tibet"
+        }]})
+        }
+      
+        
+        
+
         
 
 
