@@ -14,7 +14,8 @@ app.use(cors())
 
 app.post("/music",(req,res)=>{
     try {
-        const {name}=req.body;
+        let {name}=req.body;
+        name=name.toLowerCase();
 
         // ["fearless","blank","help_urself","midnight","shadow lady"]
         if (name==="shadow lady"){
