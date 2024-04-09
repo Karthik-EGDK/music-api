@@ -6,11 +6,17 @@ const port = 8000
 
 app.use(express.json())
 
-app.use(cors())
+app.use(cors(
+    {
+      origin:["https://music-app-three-taupe.vercel.app"],
+      methods:["POST"],
+      credentials:true
+    }
+  ))
 
-// app.get('/', (req, res) => {
-//   res.send('Hello World!')
-// })
+app.get('/', (req, res) => {
+  res.send('this route is working!')
+})
 
 app.post("/music",(req,res)=>{
     try {
